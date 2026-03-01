@@ -1,0 +1,1 @@
+if (room != rm_dungeon_arena && room != rm_dungeon_death) instance_destroy();

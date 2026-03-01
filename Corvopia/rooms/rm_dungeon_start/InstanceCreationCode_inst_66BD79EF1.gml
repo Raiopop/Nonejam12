@@ -1,0 +1,1 @@
+sprite_direction = 90;
