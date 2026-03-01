@@ -1,12 +1,10 @@
-if global.day == 2 instance_destroy();
-if global.day == 4 instance_destroy();
-if global.day == 6 instance_destroy();
-if global.day == 7 instance_destroy();
-if global.day == 8 instance_destroy();
-
 if (global.lisa > 3){
 	instance_destroy();	
 }
+
+if global.day == 2 instance_destroy();
+if global.day == 4 instance_destroy();
+if global.day == 6 instance_destroy();
 
 
 if (global.lisa == 0){

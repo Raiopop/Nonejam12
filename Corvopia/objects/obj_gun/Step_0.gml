@@ -35,8 +35,8 @@ if mouse_check_button(mb_left) && delay <=0{
 	_bullet.speed = 6;
 	_bullet.image_xscale = 0.25;
 	_bullet.image_yscale = 0.25;
-	obj_player.hspd -= lengthdir_x(5,-_bullet.direction);
-	obj_player.vspd += lengthdir_y(5,-_bullet.direction);
+	obj_player.hspd -= lengthdir_x(1,-_bullet.direction);
+	obj_player.vspd += lengthdir_y(1,-_bullet.direction);
 	repeat(5){
 		var _p = instance_create_depth(_bullet.x+random_range(-3,3),_bullet.y+random_range(-3,3),depth-10,obj_particle);
 	}

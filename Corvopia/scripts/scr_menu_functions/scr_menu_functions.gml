@@ -69,6 +69,11 @@ function change_resolution(){
 	window_center();
 }
 
+function change_shake(){
+	var _ds_grid = menu_pages[page];
+	global.shake = _ds_grid[# 3, menu_option[page]];
+}
+
 function change_window_mode(){
 	var _ds_grid = menu_pages[page];
 	global.screen = _ds_grid[# 3, menu_option[page]];

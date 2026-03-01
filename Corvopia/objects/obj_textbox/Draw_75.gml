@@ -89,7 +89,7 @@ if (portrait_name[page] != ""){
 		_txt.draw((1 + txtb_x - string_length(portrait_name[page])*6)*_r, (1 +txt_y-8)*_r);
 		
 		typist.sound(sfx_dialogue, 20, 0.8, 0.9, global.sound*global.master);	
-		var _txt = scribble($"[c_blue]{portrait_name[page]}[/c]");
+		var _txt = scribble($"[c_aqua]{portrait_name[page]}[/c]");
 
 		// Definições padrão
 		_txt.wrap((txtb_w)*_r, (txtb_h)*_r);
@@ -109,7 +109,7 @@ if (portrait_name[page] != ""){
 		_txt.draw((1 + txtb_x - string_length(portrait_name[page])*6)*_r, (1 +txt_y-8)*_r);
 		
 		typist.sound(sfx_dialogue, 20, 0.9, 1, global.sound*global.master);	
-		var _txt = scribble($"[c_maroon]{portrait_name[page]}[/c]");
+		var _txt = scribble($"[c_red]{portrait_name[page]}[/c]");
 
 		// Definições padrão
 		_txt.wrap((txtb_w)*_r, (txtb_h)*_r);
@@ -129,7 +129,7 @@ if (portrait_name[page] != ""){
 		_txt.draw((1 + txtb_x - string_length(portrait_name[page])*6)*_r, (1 +txt_y-8)*_r);
 		
 		typist.sound(sfx_dialogue, 20, 0.9, 2, global.sound*global.master);	
-		var _txt = scribble($"[c_blue]{portrait_name[page]}[/c]");
+		var _txt = scribble($"[c_aqua]{portrait_name[page]}[/c]");
 
 		// Definições padrão
 		_txt.wrap((txtb_w)*_r, (txtb_h)*_r);

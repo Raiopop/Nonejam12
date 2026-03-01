@@ -12,7 +12,7 @@ function __scribble_config_colours()
         //Duplicate GM's native colour constants
         c_aqua:    c_aqua,
         c_black:   c_black,
-        c_blue:    c_blue,
+        c_aqua:    c_aqua,
         c_dkgray:  c_dkgray,
         c_dkgrey:  c_dkgrey,
         c_fuchsia: c_fuchsia,
@@ -23,7 +23,7 @@ function __scribble_config_colours()
         c_lime:    c_lime,
         c_ltgray:  c_ltgray,
         c_ltgrey:  c_ltgrey,
-        c_maroon:  c_maroon,
+        c_red:  c_red,
         c_navy:    c_navy,
         c_olive:   c_olive,
         c_orange:  c_orange,

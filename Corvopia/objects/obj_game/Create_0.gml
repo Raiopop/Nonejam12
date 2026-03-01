@@ -10,6 +10,7 @@ tuts = false
 
 global.player_spd = 2;
 global.player_dmg = 1;
+global.shake = 0;
 
 global.master = 1;
 global.sound = 1;

@@ -44,3 +44,7 @@ if room == rm_dungeon_arena {
 if room == rm_init {
 	audio_sound_gain(sd_day, 0,200);
 }
+
+if room == rm_end {
+	audio_sound_gain(sd_battle, 0,50);
+}

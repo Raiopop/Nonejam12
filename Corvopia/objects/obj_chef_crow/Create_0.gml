@@ -10,10 +10,10 @@ flash = 0;
 hdash = 0;
 vdash = 0;
 
-life = 10;
+life = 5;
 
 cook_time = 100;
-cook_timer = cook_time;
+cook_timer = 20;
 
 timer = 30;
 

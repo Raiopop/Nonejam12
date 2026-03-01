@@ -50,8 +50,9 @@ ds_menu_audio = create_menu_page(
 
 ds_menu_graphics = create_menu_page(
 	["RESOLUÇÃO",		MENU_ELEMENT_TYPE.SHIFT,				change_resolution,	global.resolution, ["1280x720", "640x360"]],
-	["FULLSCREEN",		MENU_ELEMENT_TYPE.TOGGLE,				change_window_mode,	global.screen, ["JANELA", "FULLSCREEN"]],
-	["VOLTAR",		MENU_ELEMENT_TYPE.PAGE_TRANSFER,			MENU_PAGE.SETTINGS],
+	["TELA CHEIA",		MENU_ELEMENT_TYPE.TOGGLE,				change_window_mode,	global.screen, ["JANELA", "CHEIA"]],
+	["TREMOR DE TELA",	MENU_ELEMENT_TYPE.TOGGLE,			change_shake,		global.shake, ["SIM", "NÃO"]],
+	["VOLTAR",			MENU_ELEMENT_TYPE.PAGE_TRANSFER,			MENU_PAGE.SETTINGS],
 );
 
 page = 0;

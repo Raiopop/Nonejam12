@@ -38,7 +38,7 @@ function game_text(_text_id){
 		break;
 		
 		case "Akira - 1":
-		dialogue_text("[wave]SÉRIO??[/wave] por favor, se você encontrá-lo, me avisa!!","Lisa");
+		dialogue_text("[wave]SÉRIO??[/wave] Por favor, se você encontrá-lo, me avisa!!","Lisa");
 		dialogue_text("Eu também vou procurar, mas sabe como é, quanto mais gente procurando, melhor!","Lisa");
 		dialogue_event[0] = "akira 2";
 		dialogue_event[1] = page_number;
@@ -46,7 +46,7 @@ function game_text(_text_id){
 		break;
 		
 		case "Akira - 2":
-		dialogue_text("... por favor, se você encontrá-lo, me avisa?","Lisa");
+		dialogue_text("... Por favor, se você encontrá-lo, me avisa?","Lisa");
 		dialogue_text("Eu também vou procurar, mas sabe como é, quanto mais gente procurando, melhor!","Lisa");
 		dialogue_event[0] = "akira 2";
 		dialogue_event[1] = page_number;
@@ -120,8 +120,8 @@ function game_text(_text_id){
 		case "park3 1":
 		dialogue_text("Eu tou meio preocupada com o [c_aqua]Akira[/c], já faz um tempão que eu não vejo ele...", "Lisa");
 		dialogue_text("Sei que ele é um gato esperto, mas ainda me preocupo...", "Lisa");
-		dialogue_text("E pensar que tudo isso aconteceu depois dele ter caçado aquele [c_blue]corvo[/c]...", "Lisa");
-		dialogue_text("Eu tomei um [shake]susto[shake], ele trouxe um corvo morto pra minha cama!", "Lisa");
+		dialogue_text("E pensar que tudo isso aconteceu depois dele ter caçado aquele [c_aqua]corvo[/c]...", "Lisa");
+		dialogue_text("Eu tomei um [shake]susto[/s], ele trouxe um corvo morto pra minha cama!", "Lisa");
 		dialogue_text("Aparentemente é comum gatos fazerem isso...", "Lisa");
 		dialogue_option("...", "park3 2");
 		dialogue_option("Assustador", "park3 3");
@@ -241,7 +241,7 @@ function game_text(_text_id){
 		dialogue_event[0] = "go to home";
 		dialogue_event[1] = page_number;
 		dialogue_text("É, eu também não... tou sem cabeça pra isso agora...", "Lisa");
-		dialogue_text("* Já está ficando tarde, e você decidiu voltar pra casa", "");
+		dialogue_text("* Já está ficando tarde, e eu decidi voltar pra casa", "");
 		break;
 		
 		case "park 6":
@@ -250,7 +250,7 @@ function game_text(_text_id){
 		dialogue_text("Caramba, como você consegue??", "Lisa");
 		dialogue_text("Tipo, a gente mal tem tempo pra fazer coisas fora da faculdade....", "Lisa");
 		dialogue_text("Ou talvez eu desperdice muitas horas jogando.........", "Lisa");
-		dialogue_text("* Já está ficando tarde, e você decidiu voltar pra casa", "");
+		dialogue_text("* Já está ficando tarde, e eu decidi voltar pra casa", "");
 		dialogue_text("Até amanhã!", "Lisa");
 		break;
 		
@@ -326,7 +326,7 @@ function game_text(_text_id){
 
 		case "crow 2":
 		dialogue_text("Eu estava apenas aquecendo minha garganta!","C");
-		dialogue_text("A propósito, me chamo [c_blue]Corvet[/c], prazer em conhecê-lo!","Corvet");
+		dialogue_text("A propósito, me chamo [c_aqua]Corvet[/c], prazer em conhecê-lo!","Corvet");
 		dialogue_option("* Me chamo [c_fuchsia]Yumi[/c]", "crow 3");
 		dialogue_option("* Tou num sonho?", "crow 4");
 		break;
@@ -334,19 +334,19 @@ function game_text(_text_id){
 		case "crow 3":
 		dialogue_text("Que nome feio, não é nada elegante. Mas fazer o que né, nem todos tem um nome incrível...","Corvet");
 		dialogue_text("Bom, você deve estar perdido, né? Tipo, sem saber aonde você tá e tudo mais...","Corvet");
-		dialogue_text("Bem vido à Sala de Veludo, um lugar que existe entre sonh-","Corvet");
+		dialogue_text("Bem-vindo à Sala de Veludo, um lugar que existe entre sonh-","Corvet");
 		dialogue_text("Pera, essa é a frase errada...","Corvet");
-		dialogue_text("Nós chamamos esse lugar de Corvopia, a cidade dos Corvos!","Corvet");
+		dialogue_text("Nós chamamos esse lugar de [c_fuchsia]Corvopia, a cidade dos Corvos[/c]!","Corvet");
 		
 		dialogue_option("* Nós...?", "crow 5");
 		dialogue_option("* Cidade?", "crow 5");
 		break;
 		
 		case "crow 4":
-		dialogue_text("Bem vido à Sala de Veludo, um lugar que existe entre sonh-","Corvet");
+		dialogue_text("Bem-vindo à Sala de Veludo, um lugar que existe entre sonh-","Corvet");
 		dialogue_text("Pera, essa é a frase errada...","Corvet");
 		dialogue_text("Uhhh, é, acho que você não tá sonhando. Eu acho. Talvez.","Corvet");
-		dialogue_text("Nós chamamos esse lugar de [c_fuchsia]Corvopia[/c], a cidade dos Corvos!","Corvet");
+		dialogue_text("Nós chamamos esse lugar de [c_fuchsia]Corvopia, a cidade dos Corvos[/c]!","Corvet");
 		
 		dialogue_option("* Nós...?", "crow 5");
 		dialogue_option("* Cidade?", "crow 5");
@@ -398,7 +398,7 @@ function game_text(_text_id){
 		dialogue_text("O que acha de colaborarmos?","Corvet");
 		dialogue_text("Vamos fazer o seguinte: a gente entra naquela cela e você me [wave][c_yellow]me usa como arma![/c][wave]","Corvet");
 		dialogue_text("E não se esqueça de se esquivar! [c_gray](shift)[/c]","Corvet");
-		dialogue_text("[c_gray]aperte o botão esquerdo do mouse para atirar e shift para esquivar[/c]","");
+		dialogue_text("[c_gray]Aperte o [/c][c_yellow]botão esquerdo do mouse para atirar[/c][c_gray] e [/c][c_yellow]shift[/c][c_gray] para esquivar[/c]","");
 		dialogue_event[0] = "cela";
 		dialogue_event[1] = page_number;
 		dialogue_text("Vambora!","Corvet");
@@ -408,7 +408,7 @@ function game_text(_text_id){
 		dialogue_text("Tá, mas leva esse gato junto, eu tenho [shake]PAVOR[shake] de gato","Corvet");
 		dialogue_text("Vamos fazer o seguinte: a gente entra naquela cela e você me [wave][c_yellow]me usa como arma![/c][wave]","Corvet");
 		dialogue_text("E não se esqueça de se esquivar! [c_gray](shift)[/c]","Corvet");
-		dialogue_text("[c_gray]aperte o botão esquerdo do mouse para atirar e shift para esquivar[/c]","");
+		dialogue_text("[c_gray]Aperte o botão esquerdo do mouse para atirar e shift para esquivar[/c]","");
 		dialogue_event[0] = "cela";
 		dialogue_event[1] = page_number;
 		dialogue_text("Vambora!","Corvet");
@@ -502,7 +502,7 @@ function game_text(_text_id){
 		
 		case "tuts":
 		dialogue_text("[c_gray](WASD para se mover, espaço para confirmar/interagir)");
-		dialogue_text("[c_gray](experimente chegar perto de objetos/lugares e apertar espaço!)");
+		dialogue_text("[c_gray](Evindoxperimente chegar perto de objetos/lugares e apertar espaço!)");
 		
 		break;
 		case "nosleep":
@@ -550,7 +550,7 @@ function game_text(_text_id){
 		dialogue_text("Mano, eu tou viciado num jogo chamado Harmonia da Seda..","Aluno 1");
 		dialogue_text("Ah, foi aquele que demorou uns 7 anos pra sair?","Aluno 2");
 		dialogue_text("Esse mesmo. Como eu adoro jogos indies!","Aluno 2");
-		dialogue_text("Afinal, o QUE é um jogo indie", "Aluno 1");
+		dialogue_text("Afinal, o QUE é um jogo indie?", "Aluno 1");
 		dialogue_text("... Não cara, Jornada 34 não é indie", "Aluno 2");
 		
 		break;
@@ -618,7 +618,7 @@ function game_text(_text_id){
 		
 		case "j1":
 
-		dialogue_text("* Comecei a jogar Arca Gema, feito pelo Hagonfe e pelo Gugo","");
+		dialogue_text("* Comecei a jogar [c_orange]Arca Gema[/c], feito pelo Hagonfe e pelo Gugo","");
 		dialogue_text("* ...","");
 		dialogue_text("* Eu consigo perceber o carinho colocado durante o desenvolvimento do jogo...","");
 		dialogue_text("* Plataformas de precisão são realmente legais...","");
@@ -632,7 +632,7 @@ function game_text(_text_id){
 		
 		case "j2":
 
-		dialogue_text("* Comecei a jogar Povo Dado, feito pelo Manonove e pelo 2Milhas","");
+		dialogue_text("* Comecei a jogar [c_lime]Povo Dado[/c], feito pelo Manonove e pelo 2Milhas","");
 		dialogue_text("* ...","");
 		dialogue_text("* Eu consigo perceber o carinho colocado durante o desenvolvimento do jogo...","");
 		dialogue_text("* Jogos idles são bem satisfatórios...","");
@@ -645,7 +645,7 @@ function game_text(_text_id){
 		
 		case "j3":
 
-		dialogue_text("* Comecei a jogar Omni Cura, feito pelo estúdio escuro...","");
+		dialogue_text("* Comecei a jogar [c_red]Omni Cura[/c], feito pelo estúdio escuro...","");
 		dialogue_text("* ...","");
 		dialogue_text("* Eu consigo perceber o carinho colocado durante o desenvolvimento do jogo...","");
 		dialogue_text("* Eu adoro acertar esses parries!","");
@@ -674,7 +674,7 @@ function game_text(_text_id){
 		dialogue_text("* ...","");
 		dialogue_text("* Foi difícil achar essa antiderivada..","");
 		dialogue_text("* Parece que vou passar um tempo resolvendo tudo isso...","");
-		dialogue_text("[c_gray](sua [/c][c_lime]velocidade [/c][c_gray]aumentou!)[/c]","");
+		dialogue_text("[c_gray](Sua [/c][c_lime]velocidade [/c][c_gray]aumentou!)[/c]","");
 		break;
 		
 		

@@ -1,3 +1,4 @@
+if global.shake == 1 exit;
 
 //step
 
