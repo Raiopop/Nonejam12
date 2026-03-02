@@ -48,3 +48,8 @@ if room == rm_init {
 if room == rm_end {
 	audio_sound_gain(sd_battle, 0,50);
 }
+
+if room == rm_gameover {
+	audio_sound_gain(sd_battle, 0,50);
+	audio_sound_gain(sd_cricket, 0,50);
+}

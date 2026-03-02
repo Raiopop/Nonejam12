@@ -1,6 +1,6 @@
 {
   "$GMSequence":"v1",
-  "%Name":"sq_circle_casa",
+  "%Name":"sq_circle_casa_1",
   "autoRecord":true,
   "backdropHeight":360,
   "backdropImageOpacity":0.5,
@@ -30,7 +30,7 @@
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
   },
-  "name":"sq_circle_casa",
+  "name":"sq_circle_casa_1",
   "parent":{
     "name":"Sequences",
     "path":"folders/Sequences.yy",
@@ -190,7 +190,7 @@
       ],"traits":0,},
     {"$GMTextTrack":"","%Name":"fnt_dialogue_transition","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetTextKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetTextKeyframe>":"","Channels":{
-              "0":{"$AssetTextKeyframe":"v1","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"fnt_dialogue_transition","path":"fonts/fnt_dialogue_transition/fnt_dialogue_transition.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"À noite","Wrap":false,},
+              "0":{"$AssetTextKeyframe":"v1","Alignment":0,"EnableEffects":false,"EnableGlow":false,"EnableOutline":false,"EnableShadow":false,"Id":{"name":"fnt_dialogue_transition","path":"fonts/fnt_dialogue_transition/fnt_dialogue_transition.yy",},"resourceType":"AssetTextKeyframe","resourceVersion":"2.0","Text":"No amanhecer...","Wrap":false,},
             },"Disabled":false,"id":"7d44c2c9-4b16-499d-9ed2-eb5560884b41","IsCreationKey":false,"Key":61.0,"Length":193.0,"resourceType":"Keyframe<AssetTextKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetTextKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"fnt_dialogue_transition","resourceType":"GMTextTrack","resourceVersion":"2.0","trackColour":4294088776,"tracks":[
         {"$GMColourTrack":"","%Name":"blend_multiply","builtinName":10,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<ColourKeyframe>":"","Keyframes":[

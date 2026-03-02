@@ -286,6 +286,7 @@
     {"id":{"name":"string_width_scribble","path":"scripts/string_width_scribble/string_width_scribble.yy",},},
     {"id":{"name":"sq_circle_amanhecer","path":"sequences/sq_circle_amanhecer/sq_circle_amanhecer.yy",},},
     {"id":{"name":"sq_circle_arena","path":"sequences/sq_circle_arena/sq_circle_arena.yy",},},
+    {"id":{"name":"sq_circle_casa_1","path":"sequences/sq_circle_casa_1/sq_circle_casa_1.yy",},},
     {"id":{"name":"sq_circle_casa","path":"sequences/sq_circle_casa/sq_circle_casa.yy",},},
     {"id":{"name":"sq_circle_descer1","path":"sequences/sq_circle_descer1/sq_circle_descer1.yy",},},
     {"id":{"name":"sq_circle_descer2","path":"sequences/sq_circle_descer2/sq_circle_descer2.yy",},},

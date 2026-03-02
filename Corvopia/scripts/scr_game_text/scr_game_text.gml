@@ -385,9 +385,15 @@ function game_text(_text_id){
 		
 		case "exit gate":
 		if !instance_exists(obj_key){
-			dialogue_text("* Sair?");
-			dialogue_option("* Não", "nothing");
-			dialogue_option("* Sim", "exit!");	
+			if (global.keys != 3){
+				dialogue_text("* Já estou cansado, acho melhor eu voltar pra casa...");
+				dialogue_option("* Deixa eu pensar", "nothing");
+				dialogue_option("* Voltar", "exit!");	
+			} else {
+				dialogue_text("* Já estou cansado, acho melhor eu voltar pra [c_fuchsia]Corvopia[/c]...");
+				dialogue_option("* Deixa eu pensar", "nothing");
+				dialogue_option("* Voltar", "exit!");	
+			}
 		} else {
 			dialogue_text("* Eu deveria pegar a Chave...");
 		}
@@ -502,7 +508,7 @@ function game_text(_text_id){
 		
 		case "tuts":
 		dialogue_text("[c_gray](WASD para se mover, espaço para confirmar/interagir)");
-		dialogue_text("[c_gray](Evindoxperimente chegar perto de objetos/lugares e apertar espaço!)");
+		dialogue_text("[c_gray](Experimente chegar perto de objetos/lugares e apertar espaço!)");
 		
 		break;
 		case "nosleep":

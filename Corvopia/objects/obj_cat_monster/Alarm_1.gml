@@ -1,2 +1,2 @@
 sprite_index = spr_cat_monster;
-alarm_set(2,25);
+alarm_set(2,50);

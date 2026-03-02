@@ -235,6 +235,7 @@
     {"name":"string_width_scribble","order":5,"path":"scripts/string_width_scribble/string_width_scribble.yy",},
     {"name":"sq_circle_amanhecer","order":4,"path":"sequences/sq_circle_amanhecer/sq_circle_amanhecer.yy",},
     {"name":"sq_circle_arena","order":9,"path":"sequences/sq_circle_arena/sq_circle_arena.yy",},
+    {"name":"sq_circle_casa_1","order":13,"path":"sequences/sq_circle_casa_1/sq_circle_casa_1.yy",},
     {"name":"sq_circle_casa","order":3,"path":"sequences/sq_circle_casa/sq_circle_casa.yy",},
     {"name":"sq_circle_descer1","order":6,"path":"sequences/sq_circle_descer1/sq_circle_descer1.yy",},
     {"name":"sq_circle_descer2","order":7,"path":"sequences/sq_circle_descer2/sq_circle_descer2.yy",},

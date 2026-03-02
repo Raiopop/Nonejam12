@@ -27,6 +27,8 @@ if (image_angle >= 90 && image_angle < 270){
 
 delay -= (global.player_spd/2);
 
+delay = clamp(delay,0,999);
+
 if mouse_check_button(mb_left) && delay <=0{
 	delay = 20;
 	var _bullet = instance_create_depth(x+5*obj_player.see,y,depth-1,obj_bullet);
